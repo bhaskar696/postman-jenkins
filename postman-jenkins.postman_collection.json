@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "23fee42b-cb8f-409a-8553-980d0b7c1b67",
+		"name": "postman-jenkins",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7055381"
+	},
+	"item": [
+		{
+			"name": "https://cardiotrack.info/ct/api/sub_profile/get/pat123/profile004",
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "be43c193-a258-46e0-aa5d-cf8b69c07c82",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "X-Gravitee-Api-Key",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cardiotrack.info/ct/api/sub_profile/get/pat123/profile004",
+					"protocol": "https",
+					"host": [
+						"cardiotrack",
+						"info"
+					],
+					"path": [
+						"ct",
+						"api",
+						"sub_profile",
+						"get",
+						"pat123",
+						"profile004"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
